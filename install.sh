@@ -278,7 +278,6 @@ update_panel() {
     bash <(curl -fsSL https://raw.githubusercontent.com/2hoch1/pterodactyl-installer/main/get.sh) --yes
 }
 
-ptero_do
 # ---- SKN built-in utility routines ----
 database_tools() {
   require_debian || return 1
